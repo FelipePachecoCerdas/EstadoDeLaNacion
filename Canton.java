@@ -1,12 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author felip
+ * @author Felipe Cerdas Pacheco
+ * @author Kendall Tenorio Chevez
  */
 public class Canton {
 
@@ -38,7 +33,9 @@ public class Canton {
   private int porDiscapacidad;
   private int porNoAsegurada;
   private int porJefaturaFemenina;
-
+  /*
+  * Constructor de la clase Canton
+  */
   public Canton(String pNombre, int pCantHabitantes, int pSuperficie, int pDensisadXkm2, int pPersonasUrbanasX100, int pHombresX100Mujeres,
     int pDependientesX100Productivas, int pCantViviendas, int pPersonasXVivienda, int pPorViviendasBuenEstado, int pPorViviendasHacinadas,
     int pPorAlfabetismo, int pPaDe10a24, int pPaDe24aMas, int pEscolaridadPromedio, int pEpDe25a49, int pEpDe50aMas, int pEpDe5a17, int pEpDe18a24,
