@@ -14,13 +14,16 @@ import org.json.simple.parser.JSONParser;
 
 /**
  *
- * @author felip
+ * @author Felipe Pacheco Cerdas
+ * @author Kendall Tenorio Chevez
  */
 public class CostaRica {
 
   Canton[] cantones;
   CantonFactory fabricaCantones;
-
+  /*
+  * El constructor de la clase CostaRica
+  */
   public CostaRica() {
     cantones = new Canton[81];
     fabricaCantones = new CantonFactory();
