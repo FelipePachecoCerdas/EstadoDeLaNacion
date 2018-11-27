@@ -25,12 +25,13 @@ import javax.swing.border.LineBorder;
  */
 /**
  *
- * @author felip
+ * @author Felipe Pacheco Cerdas
+ * @author Kendall Tenorio Chevez
  */
 public class Mapa extends javax.swing.JFrame {
 
-  JLayeredPane actual = null;
-  CostaRica costaRica;
+  private JLayeredPane actual = null;
+  private CostaRica costaRica;
 
   /**
    * Creates new form Mapa
