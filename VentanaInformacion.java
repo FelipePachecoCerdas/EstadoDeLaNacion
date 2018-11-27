@@ -11,12 +11,13 @@ import javax.swing.JFrame;
  */
 /**
  *
- * @author felip
+ * @author Felipe Pacheco Cerdas
+ * @author Kendall Tenorio Chevez
  */
 public class VentanaInformacion extends javax.swing.JFrame {
 
-  JFrame ventanaPrincipal;
-  Canton canton;
+  private JFrame ventanaPrincipal;
+  priavte Canton canton;
 
   /**
    * Creates new form VentanaInformacion
